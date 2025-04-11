@@ -21,7 +21,7 @@ body {
     margin-bottom: 24px;
 }
 
-.title {
+h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.33;
@@ -30,13 +30,13 @@ body {
     margin: 16px;
 }
 
-.list {
+h2 ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.li-item {
+h2 ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;

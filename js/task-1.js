@@ -1,17 +1,17 @@
-const titles = document.querySelectorAll('h2');
-titles.forEach(title => {
-  title.classList.add('title');
-});
+// const titles = document.querySelectorAll('h2');
+// titles.forEach(title => {
+//   title.classList.add('title');
+// });
 
-const lists = document.querySelectorAll('.item ul');
-lists.forEach(list => {
-  list.classList.add('list');
-});
+// const lists = document.querySelectorAll('.item ul');
+// lists.forEach(list => {
+//   list.classList.add('list');
+// });
 
-const items = document.querySelectorAll('.item ul li');
-items.forEach(item => {
-  item.classList.add('li-item');
-});
+// const items = document.querySelectorAll('.item ul li');
+// items.forEach(item => {
+//   item.classList.add('li-item');
+// });
 
 const categoriesList = document.getElementById('categories');
 
