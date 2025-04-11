@@ -1,3 +1,14 @@
+const title = document.querySelector('h2');
+title.classList.add('title');
+
+const list = document.querySelector('.item ul');
+list.classList.add('list');
+
+const items = document.querySelectorAll('.list li');
+items.forEach(item => {
+  item.classList.add('li-item');
+});
+
 const categoriesList = document.getElementById('categories');
 
 const categoryItems = categoriesList.querySelectorAll('.item');
