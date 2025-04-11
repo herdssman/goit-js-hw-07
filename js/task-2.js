@@ -27,9 +27,18 @@ const images = [
 
 const galleryList = document.querySelector('.gallery')
 
+galleryList.style.display = 'flex';
+galleryList.style.flexWrap = 'wrap';
+galleryList.style.gap = '24px';
+galleryList.style.padding = '0';
+galleryList.style.listStyleType = 'none';
+
 const items = images.map(image => {
     const li = document.createElement('li');
     const img = document.createElement('img');
+  
+    img.style.width = '360px';
+    img.style.height = '300px';
 
     img.src = image.url;
     img.alt = image.alt;
