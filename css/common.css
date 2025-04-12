@@ -12,3 +12,137 @@ body {
     color: #212121;
     line-height: 1.5;
 }
+
+/* #region 1 */
+
+h2 {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item ul li {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 16px;
+    list-style-type: none;
+    width: 360px;
+}
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#categories .item {
+    padding: 16px;
+    background-color: #f6f6fe;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+}
+
+/* #endregion */
+
+/* #region 2 */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.gallery li img {
+    width: 360px;
+    height: 300px;
+}
+
+/* #endregion */
+
+/* #region 3 */
+
+#name-input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    padding: 8px 16px;
+}
+
+/* #endregion */
+
+/* #region 4 */
+
+.login-form button {
+    background-color: #4e75ff;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #6c8cff;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    max-width: 240px;
+    padding: 8px;
+}
+
+label input {
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+}
+
+label input:hover {
+    border: 1px solid #000;
+}
+
+/* #endregion */
+
+/* #region 5 */
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.change-color {
+    background-color: #4e75ff;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.change-color:hover {
+    background-color: #6c8cff;
+}
+
+/* #endregion */

@@ -25,27 +25,17 @@ const images = [
   }
 ];
 
-const galleryList = document.querySelector('.gallery')
-
-galleryList.style.display = 'flex';
-galleryList.style.flexWrap = 'wrap';
-galleryList.style.gap = '24px';
-galleryList.style.padding = '0';
-galleryList.style.listStyleType = 'none';
+const galleryList = document.querySelector('.gallery');
 
 const items = images.map(image => {
-    const li = document.createElement('li');
-    const img = document.createElement('img');
-  
-    img.style.width = '360px';
-    img.style.height = '300px';
+  const li = document.createElement('li');
+  const img = document.createElement('img');
 
-    img.src = image.url;
-    img.alt = image.alt;
+  img.src = image.url;
+  img.alt = image.alt;
 
-    li.appendChild(img);
-
-    return li;
-})
+  li.append(img);
+  return li;
+});
 
 galleryList.append(...items);
